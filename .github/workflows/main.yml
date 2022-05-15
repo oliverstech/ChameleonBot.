@@ -14,8 +14,10 @@ jobs:
     - name: Check current directory
     - run: echo %cd%
     
+    
     - name: Check Requirements
     - run: pip install -r requirements.txt
+    
     
     - name: Execute bot
     - run: python bot.py
